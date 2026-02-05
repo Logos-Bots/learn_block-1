@@ -5,6 +5,9 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="scss/index.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
    <title>Banking</title>
 </head>
 <body>
@@ -12,7 +15,7 @@
       <div class="container">
          <nav class="nav">
             <a class="nav__logo" href="index.html">
-               <img src="assets/logo/icon.svg" alt="logo">
+               <img src="assets/logo/icon.svg" alt="logo" loading="lazy">
                <h2 class="nav__logo-text">Axia Bank</h2>
             </a>
             <ul class="nav__list">
@@ -39,6 +42,122 @@
                   <p>advantageous rates</p>
                </div>
                <button class="content-btn">Simulate your loan in just a few clicks</button>
+            </div>
+         </section>
+         <section class="functions-section">
+            <ul class="function-section__list">
+               <li class="function-section__item">
+                  <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M27.5 42.625C25.9812 42.625 24.75 43.8562 24.75 45.375V53.625C24.75 55.1438 25.9812 56.375 27.5 56.375H38.5C40.0188 56.375 41.25 55.1438 41.25 53.625V45.375C41.25 43.8562 40.0188 42.625 38.5 42.625H27.5ZM27.5 44.825H38.5C38.8037 44.825 39.05 45.0713 39.05 45.375V53.625C39.05 53.9287 38.8037 54.175 38.5 54.175H27.5C27.1963 54.175 26.95 53.9287 26.95 53.625V45.375C26.95 45.0713 27.1963 44.825 27.5 44.825Z" fill="#232326"/>
+                  <path d="M16.7753 74.25C16.7753 77.895 19.7301 80.8499 23.3753 80.8499H86.6253C90.2704 80.8499 93.2253 77.895 93.2253 74.25V35.75C93.2253 32.1049 90.2704 29.15 86.6253 29.15H23.3753C19.7301 29.15 16.7753 32.1049 16.7753 35.75V74.25ZM18.9753 74.25V35.75C18.9753 33.3198 20.9452 31.3499 23.3753 31.3499H86.6253C89.0553 31.3499 91.0253 33.3198 91.0253 35.75V74.25C91.0253 76.6801 89.0553 78.65 86.6253 78.65H23.3753C20.9452 78.65 18.9753 76.6801 18.9753 74.25Z" fill="#A2051A"/>
+                  <path d="M26.1253 65.7249H65.8324C66.44 65.7249 66.9324 65.2325 66.9324 64.625C66.9324 64.0174 66.44 63.525 65.8324 63.525H26.1253C25.5178 63.525 25.0253 64.0174 25.0253 64.625C25.0253 65.2325 25.5178 65.7249 26.1253 65.7249Z" fill="#A2051A"/>
+                  </svg>
+                  Manage your accounts
+               </li>
+               <li class="function-section__item">
+                  <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M90.2662 61.7565C91.345 64.1795 90.3735 66.9987 88.0459 68.035L63.6691 80.5716C61.9025 81.36 59.8697 81.728 57.5556 81.7507C54.273 81.7828 50.5077 81.1252 46.4428 79.9464C44.0197 79.2436 41.6378 78.3985 39.3957 77.4909C38.9246 77.3003 38.4798 77.1148 38.064 76.9369L36.9868 76.4639L36.8633 76.408L24.7236 79.8747C24.1395 80.0415 23.5307 79.7031 23.3639 79.119C23.1971 78.5349 23.5353 77.9261 24.1196 77.7593L37.0524 74.0661L37.8423 74.4363L38.1655 74.5811C38.7702 74.8499 39.4596 75.1435 40.2211 75.4516C42.3979 76.3327 44.7106 77.1533 47.0555 77.8334C50.9319 78.9576 54.4985 79.5805 57.534 79.5506C59.5682 79.5307 61.3104 79.2154 62.7187 78.5884L87.0954 66.0519C88.3365 65.4975 88.8543 63.9944 88.2563 62.6512C87.6585 61.3084 86.1956 60.6883 85.0099 61.2161L69.484 65.9519C68.9028 66.1289 68.2881 65.8012 68.1112 65.22C67.9344 64.6388 68.262 64.0241 68.8431 63.8473L84.2421 59.1589C86.4428 58.1698 89.1873 59.3335 90.2662 61.7565ZM61.4827 58.6737C63.9387 59.3887 65.4577 61.9832 64.921 64.5131C64.4265 66.8472 62.3183 68.3811 59.9867 68.0811L44.4573 65.8896C43.8558 65.8048 43.4369 65.2483 43.5219 64.6468C43.6068 64.0452 44.1632 63.6264 44.7648 63.7112L60.2808 65.9009C61.4508 66.0513 62.5094 65.2809 62.7689 64.0567C63.0685 62.6445 62.2091 61.1765 60.8677 60.786L59.2754 60.3282L57.7206 59.8932C50.3898 57.8721 44.5343 56.6928 43.0073 57.227L42.5182 57.407L41.5667 57.7855C40.3928 58.2662 38.7562 58.9754 36.6791 59.9003L30.8069 62.5508L20.7977 67.1194C20.2428 67.3665 19.5925 67.1169 19.3454 66.562C19.0983 66.0069 19.3479 65.3567 19.9029 65.1096L32.4841 59.3728L35.8304 57.8697C39.0114 56.4538 41.1687 55.5396 42.2807 55.1505C44.7095 54.3007 51.8605 55.8711 61.4827 58.6737Z" fill="#A2051A"/>
+                  <path d="M61.3677 28.875C63.12 28.875 64.8275 29.43 66.245 30.4602C66.7364 30.8173 66.8453 31.5052 66.4881 31.9967C66.131 32.4881 65.4431 32.597 64.9517 32.2398C63.91 31.4828 62.6554 31.075 61.3677 31.075H60.0632C57.7518 31.075 55.8389 33.0096 55.7058 35.4751L58.7234 35.475C59.3308 35.475 59.8233 35.9675 59.8233 36.575C59.8233 37.1825 59.3308 37.675 58.7234 37.675H55.697V40.975H58.7234C59.2841 40.975 59.7469 41.3946 59.8148 41.9369L59.8233 42.075C59.8233 42.6825 59.3308 43.175 58.7234 43.175H55.697L55.6983 43.45C55.6983 45.9557 57.5332 47.9809 59.8169 48.1177L60.0632 48.125H61.3677C62.6554 48.125 63.91 47.7172 64.9517 46.9602C65.4431 46.603 66.131 46.7119 66.4881 47.2033C66.8453 47.6948 66.7364 48.3827 66.245 48.7398C64.8275 49.7701 63.12 50.325 61.3677 50.325H60.0632C56.4235 50.325 53.4984 47.2337 53.4984 43.45V43.175H50.4734C49.9126 43.175 49.4498 42.7553 49.3819 42.2129L49.3734 42.075C49.3734 41.4675 49.8659 40.975 50.4734 40.975H53.4984V37.675H50.4734C49.9126 37.675 49.4498 37.2553 49.3819 36.7129L49.3734 36.575C49.3734 35.9675 49.8659 35.475 50.4734 35.475L53.5036 35.4749C53.6412 31.8175 56.5122 28.875 60.0632 28.875H61.3677Z" fill="#232326"/>
+                  </svg>
+                  Borrow
+               </li>
+               <li class="function-section__item">
+                  <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M24.75 48.1144C25.3575 48.1144 25.85 48.6069 25.85 49.2144V80.2954C25.85 82.8172 27.9239 84.8859 30.5143 84.8859H79.4874C82.0758 84.8859 84.15 82.8175 84.15 80.2954V49.2144C84.15 48.6069 84.6425 48.1144 85.25 48.1144C85.8575 48.1144 86.35 48.6069 86.35 49.2144V80.2954C86.35 84.0584 83.2648 87.0859 79.4874 87.0859H30.5143C26.7354 87.0859 23.65 84.0585 23.65 80.2954V49.2144C23.65 48.6069 24.1425 48.1144 24.75 48.1144Z" fill="#A2051A"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M55 24.4747C43.4573 24.4747 34.1 33.832 34.1 45.3747C34.1 56.9176 43.4573 66.2747 55 66.2747C66.5427 66.2747 75.9 56.9176 75.9 45.3747C75.9 33.832 66.5427 24.4747 55 24.4747ZM31.9 45.3747C31.9 32.6169 42.2422 22.2747 55 22.2747C67.7578 22.2747 78.1 32.6169 78.1 45.3747C78.1 58.1325 67.7578 68.4747 55 68.4747C42.2422 68.4747 31.9 58.1325 31.9 45.3747Z" fill="#A2051A"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M55.6941 34.9625C52.9612 34.9625 50.6435 37.322 50.6435 40.3623V49.0286C50.6435 52.0689 52.9612 54.4285 55.6941 54.4285H57.1624C58.6408 54.4285 60.0813 53.9603 61.2773 53.0911C61.7687 52.734 62.4567 52.8427 62.8137 53.3342C63.171 53.8256 63.0621 54.5135 62.5706 54.8707C60.9987 56.0131 59.1055 56.6285 57.1624 56.6285H55.6941C51.6332 56.6285 48.4435 53.1679 48.4435 49.0286V40.3623C48.4435 36.223 51.6332 32.7625 55.6941 32.7625H57.1624C59.1055 32.7625 60.9987 33.3778 62.5706 34.5202C63.0621 34.8774 63.171 35.5653 62.8137 36.0567C62.4567 36.5482 61.7687 36.6571 61.2773 36.2998C60.0813 35.4307 58.6408 34.9625 57.1624 34.9625H55.6941Z" fill="#232326"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M44.5745 41.2907C44.5745 40.6832 45.0668 40.1907 45.6745 40.1907H54.9598C55.5673 40.1907 56.0598 40.6832 56.0598 41.2907C56.0598 41.8981 55.5673 42.3907 54.9598 42.3907H45.6745C45.0668 42.3907 44.5745 41.8981 44.5745 41.2907ZM44.5745 47.4809C44.5745 46.8733 45.0668 46.3809 45.6745 46.3809H54.9598C55.5673 46.3809 56.0598 46.8733 56.0598 47.4809C56.0598 48.0884 55.5673 48.5809 54.9598 48.5809H45.6745C45.0668 48.5809 44.5745 48.0884 44.5745 47.4809Z" fill="#232326"/>
+                  </svg>
+                  Save
+               </li>
+               <li class="function-section__item">
+                  <svg width="110" height="110" viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M53.9007 57.75V86.5512C53.9007 87.5797 53.0669 88.4135 52.0382 88.4135C51.2245 88.4135 50.5129 87.8866 50.2667 87.1257L50.2183 86.9461C50.0895 86.3524 49.5037 85.9755 48.9101 86.1043C48.3164 86.2331 47.9395 86.8189 48.0683 87.4126C48.4737 89.2807 50.1267 90.6135 52.0382 90.6135C54.2818 90.6135 56.1007 88.7946 56.1007 86.5512V57.75C56.1007 57.1424 55.6082 56.65 55.0007 56.65C54.3931 56.65 53.9007 57.1424 53.9007 57.75Z" fill="#232326"/>
+                  <path d="M54.8233 20.625C55.9012 20.625 56.775 21.4988 56.775 22.5767V24.5282H52.8716V22.5767C52.8716 21.4988 53.7454 20.625 54.8233 20.625ZM52.8029 25.382H56.8451C72.1054 26.3634 83.2454 38.3138 83.2454 53.8024C83.2454 54.4099 82.753 54.9024 82.1454 54.9024H27.5003C26.8928 54.9024 26.4003 54.4099 26.4003 53.8024C26.4003 38.2804 37.5254 26.334 52.8029 25.382ZM52.9057 27.5798L52.4226 27.6145C38.9371 28.6979 29.1217 39.0544 28.6203 52.7024H81.0252C80.5156 38.9122 70.4423 28.461 56.7744 27.5798H52.9057Z" fill="#A2051A"/>
+                  </svg>
+                  Insure
+               </li>
+            </ul>
+         </section>
+         <section class="products-section">
+            <div class="products-section__title">
+               <h2>Benefit from a complete range of products</h2>
+               <p>Enjoy exclusive offers designed for you</p>
+            </div>
+            <div class="products-section__products-list">
+               <ul class="products">
+                  <li class="products-item">
+                     <img class="products-item__image"
+                        src="assets/products-section/Item.png" 
+                        alt="bg-img"
+                        loading="lazy">
+                     <div class="products-item__content">
+                        <h3 class="products-item__title">E Banking</h3>
+                        <p class="products-item__text">The Internet and Mobile Banking service is ISO 27001 certified.</p>
+                     </div>
+                     <div class="products-item__btn">
+                        <a href="#">
+                           <img src="assets/products-section/icon-arrow.svg.svg" alt="arrow-logo" loading="lazy">
+                        </a>
+                     </div>
+                  </li>
+                  <li class="products-item">
+                     <img class="products-item__image"
+                        src="assets/products-section/Item (1).png" 
+                        alt="bg-img"
+                        loading="lazy">
+                     <div class="products-item__content">
+                        <h3 class="products-item__title">Everyday banking</h3>
+                        <p class="products-item__text">Wherever you are, check your accounts remotely.</p>
+                     </div>
+                     <div class="products-item__btn">
+                        <a href="#">
+                           <img src="assets/products-section/icon-arrow.svg.svg" alt="arrow-logo" loading="lazy">
+                        </a>
+                     </div>
+                  </li>
+                  <li class="products-item">
+                     <img class="products-item__image"
+                        src="assets/products-section/Item (2).png" 
+                        alt="bg-img"
+                        loading="lazy">
+                     <div class="products-item__content">
+                        <h3 class="products-item__title">ATB Financing</h3>
+                        <p class="products-item__text">Discover our tailor-made solutions to make them a reality.</p>
+                     </div>
+                     <div class="products-item__btn">
+                        <a href="#">
+                           <img src="assets/products-section/icon-arrow.svg.svg" alt="arrow-logo" loading="lazy">
+                        </a>
+                     </div>
+                  </li>
+                  <li class="products-item">
+                     <img class="products-item__image"
+                        src="assets/products-section/Item (3).png" 
+                        alt="bg-img"
+                        loading="lazy">
+                     <div class="products-item__content">
+                        <h3 class="products-item__title">ATB Savings</h3>
+                        <p class="products-item__text">Access our entire range of accounts and savings books.</p>
+                     </div>
+                     <div class="products-item__btn">
+                        <a href="#">
+                           <img src="assets/products-section/icon-arrow.svg.svg" alt="arrow-logo">
+                        </a>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="services">
+            <div class="services__content">
+               <div class="services__image">
+                  <img src="assets/services-section/banner-img.png" alt="image" loading="lazy">
+               </div>
+               <div class="services__text">
+                  <h2 class="services__title">Enjoy exclusive services designed to enhance your daily life</h2>
+                  <button class="services__btn">Learn more</button>
+               </div>
             </div>
          </section>
       </div>
