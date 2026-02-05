@@ -8,8 +8,12 @@ html, body {
 }
 
 .container {
-  width: 1400px;
+  width: 1300px;
   margin: 0 auto;
+}
+
+.header {
+  max-width: 100%;
 }
 
 .nav {
@@ -42,4 +46,34 @@ html, body {
   border-radius: 99px;
   color: var(--main-white);
   background-color: var(--main-red);
+}
+
+.hero-section {
+  height: 568px;
+  min-width: 100%;
+  position: relative;
+  background-image: url("../assets/hero-section/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+.hero-section .hero-section__content {
+  position: absolute;
+  top: 176px;
+  left: 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.hero-section .hero-section__content .content-text {
+  font-size: 43px;
+  text-transform: uppercase;
+  color: var(--main-white);
+}
+.hero-section .hero-section__content .content-btn {
+  padding: 14px 25px;
+  border-radius: 99px;
+  font-weight: 600;
+  color: var(--main-red);
+  background-color: var(--main-white);
 }/*# sourceMappingURL=index.css.map */
