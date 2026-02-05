@@ -2,9 +2,45 @@ html, body {
    height: 100%;
    width: 100%;
    font-size: 18px;
+
+   --main-black: #000000;
+   --main-white: #ffffff;
+   --main-red: #A2051A;
 }
 
 .container {
    width: 1400px;
    margin: 0 auto;
+}
+
+.nav {
+   padding: 49px 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   .nav__logo {
+      display: flex;
+      align-items: center;
+      color: var(--main-black);
+      .nav__logo-text {
+         font-size: 30px;
+         font-weight: 700;
+      }
+   }
+   .nav__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+      .nav__list-item:hover {
+         cursor: pointer;
+         color: var(--main-red);
+      }
+   }
+   .nav__btn {
+      padding: 14px 25px;
+      border-radius: 99px;
+      color: var(--main-white);
+      background-color: var(--main-red);
+   }
 }
