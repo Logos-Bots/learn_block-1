@@ -35,7 +35,13 @@ html, body {
       justify-content: center;
       align-items: center;
       gap: 40px;
-      .nav__list-item:hover {
+      .nav__list-item {
+         .nav__list-item_link {
+            cursor: pointer;
+            color: var(--main-black);
+         }
+      }
+      .nav__list-item_link:hover {
          cursor: pointer;
          color: var(--main-red);
       }
