@@ -212,6 +212,7 @@ html, body {
    .cards {
       margin-bottom: 40px;
       display: grid;
+      gap: 10px;
       grid-template-columns: repeat(4, 1fr);
       .cards-item {
          height: 413px;
@@ -235,6 +236,63 @@ html, body {
          border-radius: 99px;
          color: var(--main-white);
          background-color: var(--main-red);
+      }
+   }
+}
+
+.news-section {
+   .news__nav {
+      margin-bottom: 44px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .news__title {
+         h2 {
+            font-size: 40px;
+            font-weight: 700;
+         }
+      }
+      .news__btn {
+         a {
+            color: var(--main-red);
+         }
+      }
+   }
+   .news__list {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(2, 1fr);
+      .news-item {
+         max-width: 640px;
+         display: flex;
+         border-radius: 20px;
+         background-color: #F6F6F6;
+         .news-item__image {
+            img {
+               border-radius: 20px;
+            }
+         }
+         .news-item__content {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            .news-item__title {
+               margin-bottom: 12px;
+               font-weight: 600;
+            }
+            .news-item__text {
+               margin-bottom: 36px;
+               font-size: 16px;
+            }
+            .news-item__btn {
+               padding: 14px 21px;
+               max-width: 115px;
+               border: 1px solid var(--main-red);
+               border-radius: 20px;
+               font-size: 13px;
+               color: var(--main-red);
+            }
+         }
       }
    }
 }
