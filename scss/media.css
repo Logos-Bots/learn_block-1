@@ -1,0 +1,232 @@
+@media (max-width: 1400px) {
+  .container {
+    width: 1150px;
+    margin: 0 auto;
+  }
+  .nav {
+    padding: 42px 0;
+  }
+  .nav .nav__btn {
+    padding: 12px 20px;
+  }
+  .functions-section .function-section__list .function-section__item {
+    font-size: 23px;
+  }
+  .products-section .products-section__title h2 {
+    font-size: 38px;
+  }
+  .products-section .products-section__title p {
+    font-size: 24px;
+  }
+  .products-section .products-section__products-list .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .products-section .products-section__products-list .products .products-item {
+    max-height: 270px;
+    max-width: 270px;
+  }
+  .products-section .products-section__products-list .products .products-item .products-item__content {
+    max-width: 200px;
+    top: 85px;
+  }
+  .products-section .products-section__products-list .products .products-item .products-item__content .products-item__title {
+    font-size: 20px;
+  }
+  .products-section .products-section__products-list .products .products-item .products-item__content .products-item__text {
+    font-size: 14px;
+  }
+  .products-section .products-section__products-list .products .products-item .products-item__btn {
+    position: absolute;
+    bottom: 35px;
+    right: 40px;
+  }
+  .services-section .services__content {
+    gap: 45px;
+  }
+  .services-section .services__content .services__text {
+    max-width: 680px;
+  }
+  .services-section .services__content .services__text .services__title {
+    margin-bottom: 40px;
+    font-size: 42px;
+  }
+  .services-section .services__content .services__text .services__btn {
+    padding: 12px 20px;
+    border-radius: 99px;
+    color: var(--main-white);
+    background-color: var(--main-red);
+  }
+  .cards-section .cards-section__title h2 {
+    font-size: 38px;
+  }
+  .cards-section .cards-section__title p {
+    font-size: 24px;
+  }
+  .cards-section .cards .cards-item {
+    height: 390px;
+    max-width: 270px;
+    padding: 20px 25px;
+  }
+  .cards-section .all-cards__btn button {
+    padding: 12px 20px;
+  }
+  .news-section .news__nav .news__title h2 {
+    font-size: 38px;
+  }
+  .news-section .news__list {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .news-section .news__list .news-item {
+    max-width: 640px;
+    display: flex;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+  }
+  .news-section .news__list .news-item .news-item__content .news-item__text {
+    font-size: 14px;
+  }
+  .news-section .news__list .news-item .news-item__content .news-item__btn {
+    padding: 12px 18px;
+  }
+  .footer .footer__top {
+    padding-top: 50px;
+  }
+  .footer .footer__top .footer__info .footer__info-item {
+    padding: 18px 40px;
+  }
+  .footer .footer__top .footer__info .footer__info-item .info-item__image img {
+    width: 60px;
+  }
+  .footer .footer__content .footer__nav .nav-list .nav-list__item .nav-list__item_title h3 {
+    padding-left: 15px;
+    font-size: 16px;
+  }
+  .footer .footer__bottom .footer__bottom-content a {
+    font-size: 16px;
+  }
+}
+@media (max-width: 1280px) {
+  .container {
+    padding: 0 25px;
+    width: 100%;
+  }
+  .hero-section {
+    margin-bottom: 60px;
+  }
+  .functions-section {
+    margin-bottom: 60px;
+  }
+  .products-section {
+    margin-bottom: 60px;
+  }
+  .products-section .products-section__products-list .products {
+    display: grid;
+    gap: 10;
+    grid-template-columns: repeat(2, 1fr);
+    justify-self: center;
+  }
+  .products-section .products-section__products-list .products .products-item {
+    max-height: 300px;
+    max-width: 300px;
+  }
+  .products-section .products-section__products-list .products .products-item .products-item__content {
+    max-width: 200px;
+    top: 100px;
+  }
+  .products-section .products-section__products-list .products .products-item .products-item__content .products-item__title {
+    font-size: 22px;
+  }
+  .products-section .products-section__products-list .products .products-item .products-item__content .products-item__text {
+    font-size: 16px;
+  }
+  .products-section .products-section__products-list .products .products-item .products-item__btn {
+    position: absolute;
+    bottom: 35px;
+    right: 40px;
+  }
+  .services-section {
+    margin-bottom: 60px;
+  }
+  .services-section .services__content {
+    padding: 25px;
+    justify-content: center;
+    gap: 40px;
+  }
+  .services-section .services__content .services__image {
+    width: 250px;
+  }
+  .services-section .services__content .services__image img {
+    width: 100%;
+    aspect-ratio: 100%;
+  }
+  .services-section .services__content .services__text {
+    max-width: 680px;
+  }
+  .services-section .services__content .services__text .services__title {
+    margin-bottom: 40px;
+    font-size: 36px;
+  }
+  .services-section .services__content .services__text .services__btn {
+    padding: 12px 20px;
+  }
+  .cards-section {
+    margin-bottom: 60px;
+  }
+  .cards-section .cards-section__title h2 {
+    font-size: 38px;
+  }
+  .cards-section .cards-section__title p {
+    font-size: 24px;
+  }
+  .cards-section .cards .cards-item {
+    height: 390px;
+    max-width: 270px;
+    padding: 20px 25px;
+  }
+  .cards-section .all-cards__btn button {
+    padding: 12px 20px;
+  }
+  .news-section {
+    margin-bottom: 60px;
+  }
+  .news-section .news__nav .news__title h2 {
+    font-size: 38px;
+  }
+  .news-section .news__list {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .news-section .news__list .news-item {
+    max-width: 640px;
+    display: flex;
+    border-radius: 20px;
+    background-color: #F6F6F6;
+  }
+  .news-section .news__list .news-item .news-item__content .news-item__text {
+    font-size: 14px;
+  }
+  .news-section .news__list .news-item .news-item__content .news-item__btn {
+    padding: 12px 18px;
+  }
+  .footer .footer__top {
+    padding-top: 50px;
+  }
+  .footer .footer__top .footer__info .footer__info-item {
+    padding: 18px 40px;
+  }
+  .footer .footer__top .footer__info .footer__info-item .info-item__image img {
+    width: 60px;
+  }
+  .footer .footer__content .footer__nav .nav-list .nav-list__item .nav-list__item_title h3 {
+    padding-left: 15px;
+    font-size: 16px;
+  }
+  .footer .footer__bottom .footer__bottom-content a {
+    font-size: 16px;
+  }
+}/*# sourceMappingURL=media.css.map */
