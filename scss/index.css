@@ -234,6 +234,9 @@ html, body {
   background-color: var(--main-red);
 }
 
+.news-section {
+  margin-bottom: 72px;
+}
 .news-section .news__nav {
   margin-bottom: 44px;
   display: flex;
@@ -281,4 +284,73 @@ html, body {
   border-radius: 20px;
   font-size: 13px;
   color: var(--main-red);
+}
+
+.footer {
+  color: var(--main-white);
+  background-color: #0F1215;
+}
+.footer .footer__top {
+  padding-top: 63px;
+  margin-bottom: 44px;
+}
+.footer .footer__top .footer__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .footer__top .footer__info .footer__info-item {
+  padding: 21px 80px;
+  max-width: 430px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid var(--main-white);
+}
+.footer .footer__top .footer__info .footer__info-item .info-item__image img {
+  width: 80px;
+}
+.footer .footer__top .footer__info .footer__info-item .info-item__text {
+  max-width: 260px;
+}
+.footer .footer__top .footer__info .footer__info-item:last-child {
+  border: 0;
+}
+.footer .footer__content {
+  margin-bottom: 44px;
+}
+.footer .footer__content .footer__nav .nav-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer .footer__content .footer__nav .nav-list .nav-list__item .nav-list__item_title {
+  margin-bottom: 22px;
+  border-left: 3px solid var(--main-white);
+}
+.footer .footer__content .footer__nav .nav-list .nav-list__item .nav-list__item_title h3 {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.footer .footer__content .footer__nav .nav-list .nav-list__item .nav-list__item_content {
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.footer .footer__content .footer__nav .nav-list .nav-list__item .nav-list__item_content a {
+  font-size: 14px;
+  color: var(--main-white);
+}
+.footer .footer__bottom {
+  padding: 30px;
+  border-top: 1px solid gray;
+}
+.footer .footer__bottom .footer__bottom-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .footer__bottom .footer__bottom-content a {
+  color: var(--main-white);
 }/*# sourceMappingURL=index.css.map */

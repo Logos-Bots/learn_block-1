@@ -241,6 +241,7 @@ html, body {
 }
 
 .news-section {
+   margin-bottom: 72px;
    .news__nav {
       margin-bottom: 44px;
       display: flex;
@@ -292,6 +293,81 @@ html, body {
                font-size: 13px;
                color: var(--main-red);
             }
+         }
+      }
+   }
+}
+
+.footer {
+   color: var(--main-white);
+   background-color: #0F1215;
+   .footer__top {
+      padding-top: 63px;
+      margin-bottom: 44px;
+      .footer__info {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         .footer__info-item {
+            padding: 21px 80px;
+            max-width: 430px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            border-right: 1px solid var(--main-white);
+            .info-item__image {
+               img {
+                  width: 80px;
+               }
+            }
+            .info-item__text {
+               max-width: 260px;
+            }
+         }
+         .footer__info-item:last-child {
+            border: 0;
+         }
+      }
+   }
+   .footer__content {
+      margin-bottom: 44px;
+      .footer__nav {
+         .nav-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            .nav-list__item {
+               .nav-list__item_title {
+                  margin-bottom: 22px;
+                  border-left: 3px solid var(--main-white);
+                  h3 {
+                     padding-left: 15px;
+                     font-size: 16px;
+                     font-weight: 700;
+                  }
+               }
+               .nav-list__item_content {
+                  display: flex;
+                  gap: 5px;
+                  flex-direction: column;
+                  a {
+                     font-size: 14px;
+                     color: var(--main-white);
+                  }
+               }
+            }
+         }
+      }
+   }
+   .footer__bottom {
+      padding: 30px;
+      border-top: 1px solid gray;
+      .footer__bottom-content {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         a {
+            color: var(--main-white);
          }
       }
    }
