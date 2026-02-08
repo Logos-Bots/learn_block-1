@@ -101,6 +101,7 @@ html, body {
   align-items: center;
   font-size: 27px;
   font-weight: 600;
+  text-align: center;
 }
 .functions-section .function-section__list .function-section__item:last-child {
   border-right: 0;
