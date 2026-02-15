@@ -172,6 +172,14 @@
 
    .hero-section {
       margin-bottom: 60px;
+      .hero-section__content {
+         position: absolute;
+         top: 176px;
+         left: 65px;
+         .content-text {
+            font-size: 32px;
+         }
+      }
    }
    .functions-section {
       margin-bottom: 60px;
@@ -344,14 +352,14 @@
    .hero-section {
       margin-bottom: 50px;
       .hero-section__content {
-         top: 176px;
-         left: 65px;
+         top: 85px;
+         left: 50px;
          .content-text {
-            font-size: 30px;
+            font-size: 24px;
          }
          .content-btn {
             padding: 12px 20px;
-            font-size: 18px;
+            font-size: 16px;
          }
       }
    }
